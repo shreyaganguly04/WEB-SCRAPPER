@@ -3,8 +3,8 @@ In this project , I have used 'Pandas' , 'Plotly' , 'Cufflinks' , 'Beautiful Sou
 My project works as follows :
 
 - Obtain the data(link) from which I want to extract data. 
-- Made a HTTP request to the webpage associated with my link which returned a response object with all the requested data.
-- Parsed the HTML content of the response object.
+- Made a HTTP request (using 'requests' library) to the webpage associated with my link which returned a response object with all the requested data.
+- Parsed the HTML content of the response object using Beauriful Soup.
 - Inspected the web page associated with my link to decide what to extract and wrote code for the same.
 - Got the values for all the products and stored them into Lists.
 - Created a Dataframe using all those lists using Pandas.
